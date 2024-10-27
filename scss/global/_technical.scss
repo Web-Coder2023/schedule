@@ -1,0 +1,89 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+._hidden {
+	display: none;
+}
+
+._img {
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+._btn {
+	font-family: $font3;
+	padding: 17px 79px;
+	font-weight: 400;
+	font-size: 36px;
+	color: #363636;
+	background: #c9c9c9;
+	border-radius: 60px;
+	text-align: center;
+}
+
+._parallelogram {
+	width: 74.56px;
+	height: 37.28px;
+	transform: skew(-30deg);
+	border-radius: 5px;
+	background-image: linear-gradient(151deg, #f97184 0%, #993947 100%);
+}
+
+.events__scrollbar {
+	position: relative;
+	height: 10px;
+	background-color: transparent;
+	margin-top: 40px;
+	bottom: 0;
+}
+
+
+.swiper-scrollbar-drag {
+	height: 10px;
+	/* Толщина полоски */
+	background-color: #e2e2e2;
+	/* Цвет полоски */
+	margin-top: 20px;
+	bottom: 0;
+}
+
+._error-place {
+	padding: 9px;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+
+	background: #982222;
+	display: block;
+	border-radius: 13px;
+}
+._cancel-recording {
+	padding: 9px;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+
+	background: #888;
+	display: block;
+	border-radius: 13px;
+}
