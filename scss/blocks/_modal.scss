@@ -1,0 +1,38 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 54, 54, 0.5);
+    padding: 52px 20px;
+    z-index: 2;
+    display: flex;
+
+    &__body {
+        max-width: 40vw;
+        padding: 35px 30px;
+        overflow: hidden;
+        overflow-y: auto;
+        border-radius: 45px;
+        margin: 0 auto;
+        background: #fff;
+
+        &-image {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        ._cancel-recording {
+            margin-top: 41px;
+            margin-left: 35px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 21px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            max-width: 160px;
+        }
+    }
+}

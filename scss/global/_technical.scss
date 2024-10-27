@@ -87,3 +87,23 @@ main {
 	display: block;
 	border-radius: 13px;
 }
+
+._close {
+	width: 70px;
+	height: 68px;
+}
+
+body._lock {
+	overflow-y: hidden;
+}
+._wrap-status {
+	margin-top: 21px;
+	display: flex;
+	gap: 21px;
+
+	h3 {
+		font-weight: 700;
+		font-size: 32px;
+		font-family: $font-family;
+	}
+}
