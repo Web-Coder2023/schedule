@@ -37,6 +37,7 @@ main {
 	width: 74.56px;
 	height: 37.28px;
 	transform: skew(-30deg);
+	margin-left: 9px;
 	border-radius: 5px;
 	background-image: linear-gradient(151deg, #f97184 0%, #993947 100%);
 }
@@ -89,8 +90,9 @@ main {
 }
 
 ._close {
-	width: 70px;
-	height: 68px;
+	width: 45px;
+	height: 43px;
+	cursor: pointer;
 }
 
 body._lock {
